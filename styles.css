@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#info{
+    background: #0e0a12;
+    color: #ccc;
+    padding: 10px;
+}
+.infos{
+    display: flex;
+    padding-left: 5rem;
+}
+.infos span{
+    padding: 0 20px;
+}
+.infos span i{
+    color: mediumseagreen;
+    padding: 0 5px;
+}
+
+nav div ul{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+}
+nav div ul li{
+    list-style: none;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+nav div ul li a{
+    text-decoration: none;
+    color: #000;
+}
+ul .navbrand{
+    flex-grow: 4;
+    font-size: 1.5rem;
+    color: mediumseagreen;
+}
+.header-img{
+    width: 100%;
+    height: 90vh;
+}
+.wrapper{
+    display: flex;
+    padding: 4rem 2rem;
+} 
+.wrapper div{
+    text-align: center;
+}
+.wrapper i{
+    color: mediumseagreen;
+    padding-bottom: 2rem;
+}
+.wrapper h5{
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+#offers-box{
+    background: #98ff98;
+    padding: 5rem 0;
+}
+.offer-txt{
+    text-align: center;
+}
+.offers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    text-align: center;
+}
+.see-more{
+    text-align: right;
+    padding: 10px;
+}
+#features{
+    margin: 3rem 0.5rem;
+}
+.features-info{
+    display: flex;
+}
+.features-img{
+    padding-right: 2rem;
+}
+.features-text{
+    padding-left: 5rem;
+}
+.features-text p{
+    padding-bottom: 2rem;
+}
+.features-text i{
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    background: #3d6647;
+    border: 3px solid #2f5c3b;
+    color: white;
+}
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+#team{
+    padding: 2rem;
+}
+#team h3, p{
+    text-align: center;
+}
+#team .card-body{
+    background: #366b44;
+    color: #fff;
+}
+#nav-bottom footer{
+    display: flex;
+    justify-content: space-between;
+}
+#nav-bottom{
+    background: url('./images/clouds-coal.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+#nav-bottom li{
+    list-style: none;
+    padding: 0.5rem 0;
+}
+#nav-bottom i{
+    color: mediumseagreen;
+    padding-right: 0.2rem;
+}
