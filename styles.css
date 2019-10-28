@@ -23,27 +23,25 @@ body{
     padding: 0 5px;
 }
 
-nav div ul{
+nav .menu{
     display: flex;
     align-items: center;
     padding: 20px 10px;
 }
-nav div ul li{
-    list-style: none;
-    padding: 0 10px;
-    text-transform: uppercase;
-}
-nav div ul li a{
-    text-decoration: none;
-    color: #000;
-}
-ul .navbrand{
+.menu .navbrand{
     flex-grow: 4;
     font-size: 1.5rem;
     color: #366b44;
     font-weight: 700;
     font-family: 'Modak', cursive;
 }
+nav div a{
+    padding: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
 .header-div{
     position: relative;
     text-align: center;
@@ -51,7 +49,8 @@ ul .navbrand{
 }
 .header-img{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
+    filter: blur(1.3px);
 }
 .header-txt{
     position: absolute;
@@ -143,6 +142,7 @@ ul .navbrand{
 #nav-bottom li{
     list-style: none;
     padding: 0.2rem 0;
+    cursor: pointer;
 }
 #nav-bottom i{
     color: mediumseagreen;
@@ -153,3 +153,48 @@ ul .navbrand{
     color: #fff;
     padding: 10px 0;
 }
+
+
+
+
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:  #2f5c3b;
+    color: #fff;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    color:  #2f5c3b;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
