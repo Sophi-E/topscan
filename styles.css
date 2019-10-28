@@ -40,12 +40,25 @@ nav div ul li a{
 ul .navbrand{
     flex-grow: 4;
     font-size: 1.5rem;
-    color: mediumseagreen;
+    color: #366b44;
+    font-weight: 700;
+    font-family: 'Modak', cursive;
+}
+.header-div{
+    position: relative;
+    text-align: center;
+    color: white;
 }
 .header-img{
     width: 100%;
     height: 90vh;
 }
+.header-txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 .wrapper{
     display: flex;
     padding: 4rem 2rem;
@@ -62,7 +75,7 @@ ul .navbrand{
     padding-bottom: 1rem;
 }
 #offers-box{
-    background: #98ff98;
+    background: #99ffb2;
     padding: 5rem 0;
 }
 .offer-txt{
@@ -124,13 +137,19 @@ ul .navbrand{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 2rem;
+    padding: 5rem 3rem;
+    margin-top: 2rem;
 }
 #nav-bottom li{
     list-style: none;
-    padding: 0.5rem 0;
+    padding: 0.2rem 0;
 }
 #nav-bottom i{
     color: mediumseagreen;
     padding-right: 0.2rem;
+}
+#copyright{
+    background: #0e0a12;
+    color: #fff;
+    padding: 10px 0;
 }
