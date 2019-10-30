@@ -6,6 +6,9 @@
 body{
     font-family: 'Yatra One', cursive;
 }
+p{
+    font-size: 1.2rem;
+}
 #info{
     background: #0e0a12;
     color: #ccc;
@@ -152,7 +155,6 @@ nav div a{
 #copyright{
     background: #0e0a12;
     color: #fff;
-    padding: 10px 0;
 }
 
 
